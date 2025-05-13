@@ -69,3 +69,9 @@ Select a movie from the dropdown list.
 Click "🚀 Recommend Similar Movies".
 
 View top 5 recommended movies with plots and posters.
+
+## Screenshots
+
+<img width="1440" alt="Screenshot 2025-05-13 at 3 22 14 PM" src="https://github.com/user-attachments/assets/8043c55e-36e3-4506-902d-f33f388d341b" />
+<img width="1440" alt="Screenshot 2025-05-13 at 3 22 25 PM" src="https://github.com/user-attachments/assets/46f83017-fbab-4175-82e6-424878cd42f2" />
+
