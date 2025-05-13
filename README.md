@@ -1,28 +1,71 @@
-# Movie-Recommendation-app
+# 🎬 Movie Recommendation App
 
-🎬 Content-Based Movie Recommendation System - A content-based Movie recommender built using TF-IDF and cosine similarity on movie content. Built with Python and Streamlit for fast, interactive movie suggestions.
+A **Content-Based Movie Recommender System** built using **TF-IDF** and **Cosine Similarity** on movie metadata.  
+Built with **Python** and **Streamlit** for fast, interactive movie suggestions.
 
-# Requirements
+---
 
-streamlit==1.44.1
-numpy==2.2.4
-pandas==2.2.3
-scikit-learn==1.6.1
-nltk==3.9.1
-joblib==1.4.2
-requests==2.32.3
+## 📌 Features
 
-# Start the Application
+- 🎯 Content-based filtering using TF-IDF vectorization
+- 📚 Cosine similarity on movie plot descriptions
+- 🖼️ Movie poster & plot fetched using OMDb API
+- ⚡ Interactive web interface using Streamlit
 
+---
+
+## 📦 Requirements
+
+Install dependencies with:
+
+```bash
 pip install -r requirements.txt
+
+```
+
+Or install manually:
+
+```bash
+pip install streamlit==1.44.1 
+numpy==2.2.4 
+pandas==2.2.3 
+scikit-learn==1.6.1 
+nltk==3.9.1 
+joblib==1.4.2 
+requests==2.32.3
+```
+
+## 🚀 Getting Started
+
+1. Preprocess the movie data:
+
+```bash
+
 cd src
 python preprocess.py
+
+```
+
+2. Run the Streamlit app:
+
+```bash
+
 streamlit run main.py
 
-# Recommendation System
+```
+## 🧠 How It Works
 
-This movie recommendation system works on the content based recommender built using TF-IDF and Cosine Similarity on movie Contents. Built with Python and Streamlit for fast, interactive movie suggestions.
+1. The system uses TF-IDF to convert movie plots into vectors.
+2. It then calculates cosine similarity between the selected movie and all others.
+3. The top 5 most similar movies are displayed with:
+  I. Title
+  II. Plot summary
+  III. Poster image (via OMDb)
 
-# Application.
+## 🖼️ App Interface
 
-User has to type or select the movie from the drop down list and then click on Recommend Similar Movies to get 5 movie recommendation based on content similarity.
+Select a movie from the dropdown list.
+
+Click "🚀 Recommend Similar Movies".
+
+View top 5 recommended movies with plots and posters.
