@@ -14,6 +14,12 @@ Built with **Python** and **Streamlit** for fast, interactive movie suggestions.
 
 ---
 
+## Dataset
+
+- Download the Dataset movies.csv
+
+---
+
 ## 📦 Requirements
 
 Install dependencies with:
